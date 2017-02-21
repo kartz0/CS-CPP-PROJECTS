@@ -22,7 +22,6 @@ public class roundRobin {
     private LinkedList<Integer>      start       =  new LinkedList();
     private LinkedList<Integer>      location       =  new LinkedList();
     private LinkedList<dataObject>  outputList  = new LinkedList();
-    private LinkedList<Integer>     defaultValues       =  new LinkedList();
     
     
     private final int rr;
@@ -91,7 +90,6 @@ public class roundRobin {
             end = start.get(i);
             if(i == location.getFirst()){
             System.out.println(outputList.get(i).getJob()+"\t|\t "+intial+"\t|\t"+end+"\t  | \t  "+end+"\t     |");
-            location.pop();
             intial = start.get(i);}
             else{
             System.out.println(outputList.get(i).getJob()+"\t|\t "+intial+"\t|\t"+end+"\t  | \t  "+" "+"\t     |");

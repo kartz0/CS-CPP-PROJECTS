@@ -17,8 +17,10 @@ public class Cpp311Project2 {
     public static void main(String[] args) {
         program pg = new program();
         pg.initalize();
+        pg.intializeBase();
         pg.readFile();
         pg.print();
+        
         
         
     }

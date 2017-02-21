@@ -4,7 +4,7 @@ case catch char class continue
 default do double
 else enum extends
 final finally float for
-if implements import instance of int interface
+if implements import instanceof int interface
 long
 native new
 package private protected public
